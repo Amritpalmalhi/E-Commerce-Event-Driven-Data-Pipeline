@@ -8,7 +8,7 @@ format:
 lint:
 	pylint --disable=R,C *.py
 
-refactor: format lint
+refactor:  format lint
 
 all: install refactor
 
