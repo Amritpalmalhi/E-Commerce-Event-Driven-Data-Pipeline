@@ -19,7 +19,7 @@ from pyspark.sql.functions import (
     round,
 )
 
-# Configure logging
+# Logging is configured here 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
 
